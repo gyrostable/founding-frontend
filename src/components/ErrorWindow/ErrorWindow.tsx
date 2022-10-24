@@ -26,7 +26,7 @@ const ErrorWindow = ({ message = "" }: ErrorWindowProps) => {
         </StyledWindowHeader>
         <StyledWindowContent>
           {copy && !message
-            ? "An error has occured, copy error message to clipboard"
+            ? "An error has occurred, copy error message to clipboard"
             : formatMessage(message)}
         </StyledWindowContent>
         {child}
